@@ -1,0 +1,26 @@
+{
+  "name": "command.ts-v3-quickstart-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.9.2",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@pikokr/command.ts": "^4.0.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.6.0",
+    "erela.js": "^2.3.3",
+    "jejudo": "^0.0.9-dev.a29e63c",
+    "moment": "^2.29.2",
+    "moment-duration-format": "^2.3.2"
+  },
+  "scripts": {
+    "dev": "ts-node src",
+    "build": "tsc",
+    "prod": "node dist"
+  }
+}
